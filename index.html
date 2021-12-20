@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Super somas</title>
+</head>
+<body>
+    <h1>digite numero pares ou impares</h1>
+    <form onsubmit="event.preventDefault(); enviar();">
+        <label>
+            <span>A</span>
+            <input id="numero1" type="text" name="numero1" >
+            <span>B</span>
+            <input id="numero2" type="text" name="numero2">
+        </label>
+        <button>cadrastra</button>
+    </form>
+    <div class="soma">
+        <h1>ultimas somas:</h1>
+    </div>
+    <div id="pares">
+        <h1>pares:</h1>
+    </div>
+    <div id="impares">
+        <h1>impares:</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
