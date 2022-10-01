@@ -1,7 +1,7 @@
 function enviar(){
     let Txa = document.querySelector('#numero1');
     let numero1 = parseInt(Txa.value);
-    let divsoma1 = document.querySelector('.soma')
+    let divsoma1 = document.querySelector('.soma');
 
 
     let Txb = document.querySelector('#numero2');
