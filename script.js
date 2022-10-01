@@ -1,5 +1,5 @@
 function enviar(){
-    let Txa = document.querySelector('#numero1');
+    let Txa = document.querySelector('#numero2');
     let numero1 = parseInt(Txa.value);
     let divsoma = document.querySelector('.soma')
 
