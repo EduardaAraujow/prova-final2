@@ -1,7 +1,7 @@
 function enviar(){
     let Txa = document.querySelector('#numero1');
     let numero1 = parseInt(Txa.value);
-    let divsoma1 = document.querySelector('.soma')
+    let divsoma = document.querySelector('.soma')
 
 
     let Txb = document.querySelector('#numero2');
@@ -18,7 +18,7 @@ function enviar(){
     div.classList.add(estilo);
 }
 
-function soma(numero1,numero2)(){
+function soma(numero1,numero2){
     let soma = numero1 + numero2;
     return soma;
 }
