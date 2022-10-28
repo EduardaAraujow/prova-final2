@@ -18,7 +18,7 @@ function enviar(){
     div.classList.add(estilo);
 }
 
-function soma(numero1,numero2){
+function soma1(numero1,numero2){
     let soma = numero1 + numero2;
     return soma;
 }
